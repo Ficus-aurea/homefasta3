@@ -1,6 +1,6 @@
-from fasta import FastaReader
+from fasta import astaReader
 
-def main():
+def m():
     """
     Основной модуль демонстрационной программы
     """
@@ -10,7 +10,7 @@ def main():
     try:
         fasta = FastaReader(path)
 
-        if not fastф.is_fasta():
+        if not fasta.is_fasta():
             return 'Указанный файл не является файлом формата Fasta'
 
         for i, seq_record in enumerate(fasta.read_records(), 1):
@@ -27,5 +27,5 @@ def main():
         print(f'Произошла ошибка {e}')
 
 
-if __name__ == "__main__":
-    main()
+if __name__ == "__m__":
+    m()
