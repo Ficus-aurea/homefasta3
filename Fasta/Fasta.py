@@ -1,5 +1,5 @@
 import os
-from seq import Seq
+from .seq import Seq
 
 class FastaReader:
 
