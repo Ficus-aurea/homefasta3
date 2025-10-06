@@ -1,4 +1,4 @@
-from fasta import Seq, FastaReader
+from Fasta import Seq, FastaReader
 
 seq = Seq("test", "ATCGTUAACG")
 print(f"Длина: {len(seq)}")
