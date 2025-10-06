@@ -1,9 +1,9 @@
-from Fasta import seq, Fasta
+from Fasta import Seq, FastaReader
 
-seq = seq("test", "ATCGTUAACG")
+seq = Seq("test", "ATCGTUAACG")
 print(f"Длина: {len(seq)}")
 print(f"Тип: {seq.alphabet()}")
 
-reader_one = Fasta("homefasta3/exampels/Pezoporus_wallicus_exampels.fasta")
+reader_one = FastaReader("homefasta3/exampels/Pezoporus_wallicus_exampels.fasta")
 for sequence in reader_one:
     print(sequence)
