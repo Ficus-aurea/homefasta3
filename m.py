@@ -1,4 +1,4 @@
-from fasta import astaReader
+from fasta import FastaReader
 
 def m():
     """
