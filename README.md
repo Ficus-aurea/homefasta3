@@ -69,13 +69,12 @@ classDiagram
         + str() str
         + len() int
         + alphabet() str
-        + to_fasta() str
     }
     
     class FastaReader {
         - path_to_file: str
         + init(path_to_file)
-        + iter() Iterator[Seq]
+        + read_records() Iterator[Seq]
         + _is_fasta() bool
     }
     
