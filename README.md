@@ -14,7 +14,7 @@ Python библиотека для чтения и анализа файлов �
 ```bash
 
 # Клонируйте репозиторий
-git clone https://github.com/Seitsan/FastaReader.git
+git clone https://github.com/Ficus-aurea/homefasta3.git
 cd homefasta3
 ```
 
