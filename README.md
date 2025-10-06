@@ -60,7 +60,27 @@ homefasta3/
 └── README.md          # Этот файл
 ```
 
-
+```mermaid
+classDiagram
+    class Seq {
+        - title: str
+        - sequence: str
+        + init(title, sequence)
+        + str() str
+        + len() int
+        + alphabet() str
+        + to_fasta() str
+    }
+    
+    class FastaReader {
+        - path_to_file: str
+        + init(path_to_file)
+        + iter() Iterator[Seq]
+        + _is_fasta() bool
+    }
+    
+    FastaReader --> Seq : создает
+```
 
 ## Разработка
 
